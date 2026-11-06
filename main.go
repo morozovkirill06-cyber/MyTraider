@@ -8,7 +8,7 @@ import (
 
 
 func main(){
-
+	
 	for {
 		candle, err := Parser()
 		fmt.Println(candle, err)
